@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "llm-router"
+version = "0.0.1"
+description = ""
+authors = ["Harshit Doshi <5103046+HarshitDoshi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^1.14.3"
+anthropic = "^0.21.3"
+cohere = "^5.1.7"
+fastapi = "^0.110.0"
+uvicorn = "^0.29.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
